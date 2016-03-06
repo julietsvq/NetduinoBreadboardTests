@@ -1,0 +1,64 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.24720.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FlashingLedButton", "NetduinoBreadBoardTests\FlashingLedButton.csproj", "{1E1F84BE-7EE0-447A-AD63-EE03A0A0B44D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FlashingLedNoButton", "QuickTestBoard\FlashingLedNoButton.csproj", "{115087F6-9C47-404D-BF86-B242C1E855CA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FadingLed(todo)", "FadingLed\FadingLed(todo).csproj", "{60987BF8-410E-4964-9689-65A9A9340779}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RGBLeds", "RGBLeds\RGBLeds.csproj", "{650516A7-692C-4EE5-A8C6-2B8B61CF7C5B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ActiveBuzzer", "ActiveBuzzer\ActiveBuzzer.csproj", "{0080ABE6-D95B-4AFA-8D1A-0DF194F2E3A1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PasiveBuzzer", "PasiveBuzzer\PasiveBuzzer.csproj", "{352A06A5-66D0-429C-8F84-2DE9308AB70D}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{1E1F84BE-7EE0-447A-AD63-EE03A0A0B44D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1E1F84BE-7EE0-447A-AD63-EE03A0A0B44D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1E1F84BE-7EE0-447A-AD63-EE03A0A0B44D}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{1E1F84BE-7EE0-447A-AD63-EE03A0A0B44D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1E1F84BE-7EE0-447A-AD63-EE03A0A0B44D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1E1F84BE-7EE0-447A-AD63-EE03A0A0B44D}.Release|Any CPU.Deploy.0 = Release|Any CPU
+		{115087F6-9C47-404D-BF86-B242C1E855CA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{115087F6-9C47-404D-BF86-B242C1E855CA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{115087F6-9C47-404D-BF86-B242C1E855CA}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{115087F6-9C47-404D-BF86-B242C1E855CA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{115087F6-9C47-404D-BF86-B242C1E855CA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{115087F6-9C47-404D-BF86-B242C1E855CA}.Release|Any CPU.Deploy.0 = Release|Any CPU
+		{60987BF8-410E-4964-9689-65A9A9340779}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{60987BF8-410E-4964-9689-65A9A9340779}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{60987BF8-410E-4964-9689-65A9A9340779}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{60987BF8-410E-4964-9689-65A9A9340779}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{60987BF8-410E-4964-9689-65A9A9340779}.Release|Any CPU.Build.0 = Release|Any CPU
+		{60987BF8-410E-4964-9689-65A9A9340779}.Release|Any CPU.Deploy.0 = Release|Any CPU
+		{650516A7-692C-4EE5-A8C6-2B8B61CF7C5B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{650516A7-692C-4EE5-A8C6-2B8B61CF7C5B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{650516A7-692C-4EE5-A8C6-2B8B61CF7C5B}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{650516A7-692C-4EE5-A8C6-2B8B61CF7C5B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{650516A7-692C-4EE5-A8C6-2B8B61CF7C5B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{650516A7-692C-4EE5-A8C6-2B8B61CF7C5B}.Release|Any CPU.Deploy.0 = Release|Any CPU
+		{0080ABE6-D95B-4AFA-8D1A-0DF194F2E3A1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0080ABE6-D95B-4AFA-8D1A-0DF194F2E3A1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0080ABE6-D95B-4AFA-8D1A-0DF194F2E3A1}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{0080ABE6-D95B-4AFA-8D1A-0DF194F2E3A1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0080ABE6-D95B-4AFA-8D1A-0DF194F2E3A1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0080ABE6-D95B-4AFA-8D1A-0DF194F2E3A1}.Release|Any CPU.Deploy.0 = Release|Any CPU
+		{352A06A5-66D0-429C-8F84-2DE9308AB70D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{352A06A5-66D0-429C-8F84-2DE9308AB70D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{352A06A5-66D0-429C-8F84-2DE9308AB70D}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{352A06A5-66D0-429C-8F84-2DE9308AB70D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{352A06A5-66D0-429C-8F84-2DE9308AB70D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{352A06A5-66D0-429C-8F84-2DE9308AB70D}.Release|Any CPU.Deploy.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
